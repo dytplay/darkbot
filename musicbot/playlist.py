@@ -62,7 +62,7 @@ class Playlist(EventEmitter):
                 print("Got content type", content_type)
 
             except Exception as e:
-                print("[Warning] Failed to get content type for url %s (%s)" % (song_url, e))
+                print("[Внимание] Failed to get content type for url %s (%s)" % (song_url, e))
                 content_type = None
 
             if content_type:
